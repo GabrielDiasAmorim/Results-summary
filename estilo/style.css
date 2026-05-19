@@ -1,0 +1,79 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIÁVEIS (você pode ajustar depois) */
+:root {
+  --bg: hsl(221, 100%, 96%);
+  --white: #fff;
+  --dark: #303b5a;
+}
+
+/* BODY */
+body {
+  font-family: sans-serif;
+  background: var(--bg);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* CONTAINER */
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* RESULT */
+.result {
+  padding: 30px;
+  text-align: center;
+
+  /* 🔥 VOCÊ VAI TREINAR GRADIENT AQUI */
+  background: linear-gradient(); 
+  color: white;
+}
+
+.score {
+  margin: 20px 0;
+}
+
+/* SUMMARY */
+.summary {
+  background: var(--white);
+  padding: 30px;
+}
+
+.items {
+  margin: 20px 0;
+}
+
+/* ITEM BASE */
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+  /* 🔥 VOCÊ VAI COLORIR CADA UM */
+}
+
+/* BOTÃO */
+button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+
+  /* 🔥 VOCÊ VAI ESTILIZAR */
+}
