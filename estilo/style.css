@@ -5,17 +5,40 @@
   box-sizing: border-box;
 }
 
-/* VARIÁVEIS (você pode ajustar depois) */
 :root {
-  --bg: hsl(221, 100%, 96%);
-  --white: #fff;
-  --dark: #303b5a;
-}
+  /* Layout */
+  --width-mobile: 375px;
+  --width-desktop: 1440px;
 
+  /* Primary Colors */
+  --color-primary-light-red: hsl(0, 100%, 67%);
+  --color-primary-orangey-yellow: hsl(39, 100%, 56%);
+  --color-primary-green-teal: hsl(166, 100%, 37%);
+  --color-primary-cobalt-blue: hsl(234, 85%, 45%);
+
+  /* Gradients */
+  --color-grad-light-slate-blue: hsl(252, 100%, 67%);
+  --color-grad-light-royal-blue: hsl(241, 81%, 54%);
+  --color-grad-violet-blue-circle: hsla(256, 72%, 46%, 1);
+  --color-grad-persian-blue-circle: hsla(241, 72%, 46%, 0);
+
+  /* Neutral Colors */
+  --color-neutral-white: hsl(0, 0%, 100%);
+  --color-neutral-pale-blue: hsl(221, 100%, 96%);
+  --color-neutral-light-lavender: hsl(241, 100%, 89%);
+  --color-neutral-dark-gray-blue: hsl(224, 30%, 27%);
+
+  /* Typography */
+  --font-family: 'Hanken Grotesk', sans-serif;
+  --font-size-body: 18px;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+}
 /* BODY */
 body {
   font-family: sans-serif;
-  background: var(--bg);
+  background: var(--color-neutral-white);
 
   display: flex;
   justify-content: center;
@@ -38,7 +61,7 @@ body {
   text-align: center;
 
   /* 🔥 VOCÊ VAI TREINAR GRADIENT AQUI */
-  background: linear-gradient(); 
+  background: linear-gradient(to bottom, (var(--color-grad-light-slate-blue), var(--color-grad-light-royal-blue), var(--color-grad-violet-blue-circle), var(--color-grad-persian-blue-circle))); 
   color: white;
 }
 
