@@ -67,6 +67,7 @@ body {
 
 .score {
   margin: 20px 0;
+  border-radius: 50%;
   background-image: linear-gradient(to left, var(--color-grad-violet-blue-circle), var(--color-grad-persian-blue-circle));
 }
 
