@@ -114,6 +114,10 @@ button {
   border: none;
   border-radius: 30px;
   cursor: pointer;
-
+  background-color: var(--color-neutral-dark-gray-blue);
+  color: var(--color-neutral-white);
   /* 🔥 VOCÊ VAI ESTILIZAR */
+}
+button:hover {
+  background-image: linear-gradient(to bottom, var(--color-grad-light-slate-blue), var(--color-grad-light-royal-blue));
 }
