@@ -61,7 +61,7 @@ body {
   text-align: center;
 
   /* 🔥 VOCÊ VAI TREINAR GRADIENT AQUI */
-  background: linear-gradient(to bottom, (var(--color-grad-light-slate-blue), var(--color-grad-light-royal-blue), var(--color-grad-violet-blue-circle), var(--color-grad-persian-blue-circle))); 
+  background: linear-gradient(to bottom, var(--color-grad-light-slate-blue), var(--color-grad-light-royal-blue), var(--color-grad-violet-blue-circle), var(--color-grad-persian-blue-circle)); 
   color: white;
 }
 
