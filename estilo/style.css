@@ -89,21 +89,18 @@ body {
 
   /* 🔥 VOCÊ VAI COLORIR CADA UM */
 }
-.reaction {
+.item reaction {
   background-color: var(--color-primary-light-red);
-  color: red;
+
 }
-.momory {
+.item momory {
   background-color: var(--color-primary-orangey-yellow);
-  color: yellow;
 }
-.verbal {
+.item verbal {
   background-color: var(--color-primary-green-teal);
-  color: green;
 }
-.visual {
+.item visual {
   background-color: var(--color-primary-cobalt-blue);
-  color: blue;
 }
 /* BOTÃO */
 button {
