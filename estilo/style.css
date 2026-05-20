@@ -50,8 +50,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  max-width: 375px;
+  width: 100vw;
   min-height: 100vh;
   background: var(--color-neutral-white);
 }
