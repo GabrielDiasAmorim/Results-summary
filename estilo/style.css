@@ -92,7 +92,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
 
-  background: var(--white);
+  background: var(--color-neutral-white);
   padding: 30px;
 }
 
@@ -157,10 +157,10 @@ button:hover {
     width: 50%;
   }
   .result {
-    border-radius: 20px 0 0 20px;
+    border-radius: 20px;
   }
 
 .summary {
-    border-radius: 0 20px 20px 0;
+    border-radius: 20px;
   }
 }
