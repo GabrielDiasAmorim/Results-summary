@@ -67,7 +67,7 @@ body {
   padding: 50px 30px 30px 30px;
   text-align: center;
 
-  /* 🔥 VOCÊ VAI TREINAR GRADIENT AQUI */
+
   background: linear-gradient(to bottom, var(--color-grad-light-slate-blue), var(--color-grad-light-royal-blue)); 
   color: white;
   border-bottom-left-radius: 30px;
@@ -114,8 +114,6 @@ body {
   padding: 15px;
   border-radius: 10px;
   margin-bottom: 0px;
-
-  /* 🔥 VOCÊ VAI COLORIR CADA UM */
 }
 
 .item-title {
@@ -156,7 +154,6 @@ button {
   cursor: pointer;
   background-color: var(--color-neutral-dark-gray-blue);
   color: var(--color-neutral-white);
-  /* 🔥 VOCÊ VAI ESTILIZAR */
   margin-top: 24px;
 }
 button:hover {
