@@ -142,6 +142,7 @@ button {
   background-color: var(--color-neutral-dark-gray-blue);
   color: var(--color-neutral-white);
   /* 🔥 VOCÊ VAI ESTILIZAR */
+  margin-top: 24px;
 }
 button:hover {
   background-image: linear-gradient(to bottom, var(--color-grad-light-slate-blue), var(--color-grad-light-royal-blue));
