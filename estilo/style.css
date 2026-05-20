@@ -43,7 +43,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 /* CONTAINER */
@@ -57,7 +57,13 @@ body {
 
 /* RESULT */
 .result {
-  padding: 40px 30px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 30px 20px;
   text-align: center;
 
   /* 🔥 VOCÊ VAI TREINAR GRADIENT AQUI */
@@ -81,12 +87,23 @@ body {
 
 /* SUMMARY */
 .summary {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   background: var(--white);
   padding: 30px;
 }
 
 .items {
-  margin: 20px 0;
+  margin:0;
+
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
 }
 
 /* ITEM BASE */
@@ -95,7 +112,7 @@ body {
   justify-content: space-between;
   padding: 15px;
   border-radius: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 
   /* 🔥 VOCÊ VAI COLORIR CADA UM */
 }
