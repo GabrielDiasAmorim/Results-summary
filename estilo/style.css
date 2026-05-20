@@ -117,6 +117,20 @@ body {
 
   /* 🔥 VOCÊ VAI COLORIR CADA UM */
 }
+
+.item-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+
+.item-title img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
 .reaction {
   color: var(--color-primary-light-red);
   background-color: hsla(0, 100%, 67%, 0.05);
