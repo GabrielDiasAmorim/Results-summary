@@ -147,3 +147,11 @@ button {
 button:hover {
   background-image: linear-gradient(to bottom, var(--color-grad-light-slate-blue), var(--color-grad-light-royal-blue));
 }
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+  .result, .summary {
+    width: 50%;
+  }
+}
