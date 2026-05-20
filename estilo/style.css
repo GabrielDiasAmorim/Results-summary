@@ -71,6 +71,10 @@ body {
   margin: 25px auto;
   border-radius: 50%;
   background-image: linear-gradient(to bottom, var(--color-grad-violet-blue-circle), var(--color-grad-persian-blue-circle));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* SUMMARY */
